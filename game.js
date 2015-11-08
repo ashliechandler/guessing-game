@@ -69,16 +69,12 @@ for (var i = 0; i < guessingGame.length; i++) {
         var answer = parseInt(answer);
         console.log(answer);
         if (answer === guessingGame[4][1]) {
-          console.log("---");
-          console.log(guessingGame[4][1]);
             alert(guessingGame[4][2]);
             correctAnswer.push("<li>" + guessingGame[i][0] + "<b>" + "<br>Your answer: " + answer + "</b>" + "</li>");
             correctCount += 1;
         }
         else if (answer !== guessingGame[4][1]) {
             console.log(answer);
-            console.log("---");
-            console.log(guessingGame[4][1]);
             wrongAnswer.push("<li>" + guessingGame[i][0] + "<b>" + "<br>Correct answer: " + guessingGame[i][1] + "</b>" + "</li>");
             if (answer < "5") {
                 alert(guessingGame[4][3] + " That number is too low.");
