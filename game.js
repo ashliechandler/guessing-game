@@ -6,6 +6,7 @@ var wrongAnswer = []
 function print(message) {
   document.write(message);
 }
+
 var guessingGame = [
 ["Did I join a traveling circus when I was 12 to become a trapeze acrobat?", "no", "Correct! I did not join a traveling circus, but I did join a polynesian dance troupe.", "Wrong. Unfortunately, I do not possess the skills to be a trapeze acrobat."],
 ["Did I spend eight months camping and hitchhiking through seven countries in the southern African region?", "yes", "Correct! I traveled through Namibia, Botswana, Zambia, Zimbabwe, Malawi, Mozambique and South Africa.", "Wrong. I am a world traveler goddamnit! Can't you tell?"],
