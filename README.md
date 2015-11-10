@@ -1,7 +1,4 @@
-Ashlie Lynn Chandler
-Code 201
-First Guessing Game
-November 9, 2015
+Ashlie Lynn Chandler - Code 201 - First Guessing Game - November 9, 2015
 
 This is my first guessing game. 
 
