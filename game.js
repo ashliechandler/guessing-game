@@ -20,7 +20,7 @@ for (var i = 0; i < guessingGame.length; i++) {
     answer = answer.toLowerCase();
     if (answer === guessingGame[i][1]) {
         console.log(answer);
-        correctAnswer.push("<li>" + guessingGame[i][0] + "<b>" + "<br>Your answer: " + answer + "</b>" + "</li>");
+        correctAnswer.push(guessingGame[i][0] + "<b>" + "<br>Your answer: " + answer + "</b>");
         correctCount += 1;
         var message;
         var question = guessingGame[i][0];
